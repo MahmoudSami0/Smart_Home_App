@@ -1,0 +1,93 @@
+name: smarthome
+description: This is a smart home app that can control all devices on home through it
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+
+  #dialog
+  quickalert: 
+
+  #firebase_auth:
+  flutter_bloc: ^8.1.2
+  firebase_auth: ^4.6.1
+  firebase_core: ^2.13.0
+  geolocator:
+  intl: ^0.18.1
+  lottie: ^2.3.2
+  curved_navigation_bar: ^1.0.3
+  weather: ^2.0.1
+  http: ^0.13.6
+  permission_handler: ^10.2.0
+  google_sign_in: ^6.1.2
+  cloud_firestore:
+  wifi_iot:
+  wifi_scan: ^0.4.0+1
+  cached_network_image: ^3.2.3
+  flutter_svg: ^2.0.6
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.3.0
+  flutter_otp_text_field: ^1.1.1
+  flutter_local_notifications: ^14.1.1
+  timezone: ^0.9.2
+  firebase_database: ^10.2.2
+  firebase_messaging: ^14.6.2
+  image_picker: ^0.8.8
+  firebase_storage: ^11.2.3
+
+
+
+
+
+
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/icon/icon.png"
+  #min_sdk_android: 21 # android min sdk min:16, default 21
+
+
+
+  flutter_lints: ^2.0.0
+
+flutter_native_splash:
+  background_image: "assets/images/splash/s.png"
+
+  android: true
+  ios: true
+  web: true
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/anims/
+
+  fonts:
+    - family: flutterfonts
+      fonts:
+        - asset: assets/fonts/flutterfonts.ttf
